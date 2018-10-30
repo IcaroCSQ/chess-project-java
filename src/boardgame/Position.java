@@ -10,7 +10,7 @@ package boardgame;
  * @author IcaroCarlos
  */
 public class Position {
-    
+
     private int row;
     private int column;
 
@@ -34,10 +34,10 @@ public class Position {
     public void setColumn(int column) {
         this.column = column;
     }
-    
+
     @Override
-    public String toString(){
+    public String toString() {
         return row + ", " + column;
     }
-    
+
 }
